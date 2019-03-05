@@ -277,7 +277,7 @@ if ( ! function_exists( 'academic_copyright' ) ) :
 		
 	    <div class="site-info copyright text-center">
 	    	<div class="container">
-	      		<?php echo sprintf( _x( '&copy; Aasta tegija %1$s', '', '' ), date( 'Y' ) ) . ' ' . esc_html( $theme_data->get( '') ) . '' . esc_html__( '', '' ). ''. esc_url( $theme_data->get( '' ) ) .''. esc_html( $theme_data->get( '' ) ) .'';
+	      		<?php echo sprintf( _x( '&copy; Aasta tegija %1$s', '', '' ), date( 'Y' ) ) . ' ' . esc_html( $theme_data->get( '') ) . '' . esc_html__( '', '' ). ''. esc_url( $theme_data->get( '' ) ) .'">'. esc_html( $theme_data->get( '' ) ) .'';
 		      		if ( function_exists( 'the_privacy_policy_link' ) ) {
 						the_privacy_policy_link( '<span> | </span>' );
 					}
