@@ -1,1 +1,2 @@
 [05-Mar-2019 10:36:23 UTC] PHP Fatal error:  Allowed memory size of 41943040 bytes exhausted (tried to allocate 20480 bytes) in /home/khk13meister/public_html/aastategija/wp-content/plugins/woocommerce/includes/widgets/class-wc-widget-products.php on line 45
+[05-Mar-2019 14:47:57 UTC] PHP Warning:  count(): Parameter must be an array or an object that implements Countable in /home/khk13meister/public_html/aastategija/wp-content/plugins/coursepress/2.0/include/coursepress/data/shortcode/class-template.php on line 495
