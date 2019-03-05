@@ -46,9 +46,9 @@ do_action( 'academic_footer' );
 * @hooked academic_back_to_top -  10
 *
 */
-/*do_action( 'academic_back_to_top' );
+do_action( 'academic_back_to_top' );
 
-wp_footer(); */?>
+wp_footer(); ?>
 
 </body>
 </html>
