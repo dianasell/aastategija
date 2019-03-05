@@ -17,7 +17,7 @@
 * @hooked academic_add_partner - 10
 *
 */
-/** do_action( 'academic_footer_content' );*/
+do_action( 'academic_footer_content' );
 
 /**
 * academic_content_end hook
