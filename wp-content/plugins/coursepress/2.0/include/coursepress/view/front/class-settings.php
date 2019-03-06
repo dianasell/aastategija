@@ -24,7 +24,7 @@ class CoursePress_View_Front_Settings {
 			return;
 		}
 		$content = '';
-		$page_title = __( 'My Profile', 'coursepress' );
+		$page_title = __( 'Minu profiil', 'coursepress' );
 		$args = array(
 			'slug' => CoursePress_Core::get_slug( 'student_settings' ),
 			'title' => esc_html( $page_title ),

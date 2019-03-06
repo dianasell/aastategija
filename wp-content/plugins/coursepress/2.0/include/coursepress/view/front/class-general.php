@@ -74,7 +74,7 @@ class CoursePress_View_Front_General {
 
 				$dashboard_courses = new stdClass();
 
-				$dashboard_courses->title = __( 'My Courses', 'coursepress' );
+				$dashboard_courses->title = __( 'Minu kursused', 'coursepress' );
 				$dashboard_courses->description = '';
 				$dashboard_courses->menu_item_parent = - 9998;
 				$dashboard_courses->ID = 'cp-dashboard-courses';
@@ -90,7 +90,7 @@ class CoursePress_View_Front_General {
 
 				$settings_profile = new stdClass();
 
-				$settings_profile->title = __( 'My Profile', 'coursepress' );
+				$settings_profile->title = __( 'Minu profiil', 'coursepress' );
 				$settings_profile->description = '';
 				$settings_profile->menu_item_parent = - 9998;
 				$settings_profile->ID = 'cp-dashboard-settings';
@@ -129,9 +129,9 @@ class CoursePress_View_Front_General {
 			/* Log in / Log out links */
 			$login = new stdClass();
 			if ( $is_in ) {
-				$login->title = __( 'Log Out', 'coursepress' );
+				$login->title = __( 'Logi välja', 'coursepress' );
 			} else {
-				$login->title = __( 'Log In', 'coursepress' );
+				$login->title = __( 'Logi sisse', 'coursepress' );
 			}
 			$login->description = '';
 			$login->menu_item_parent = 0;
@@ -202,8 +202,8 @@ class CoursePress_View_Front_General {
 			switch ( $item->url ) {
 				case '#coursepress-endpoints-login':
 					if ( is_user_logged_in() ) {
-						if ( __( 'Log In', 'coursepress' ) == $item->title  ) {
-							$item->title = __( 'Log Out', 'coursepress' );
+						if ( __( 'Logi sisse', 'coursepress' ) == $item->title  ) {
+							$item->title = __( 'Logi välja', 'coursepress' );
 						}
 					}
 					$item->url = self::get_log_in_out_link();

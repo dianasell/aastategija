@@ -31,7 +31,7 @@ class CoursePress_View_Front_Dashboard {
 			return;
 		}
 		$content = '';
-		$page_title = __( 'My Courses', 'coursepress' );
+		$page_title = __( 'Minu kursused', 'coursepress' );
 		$args = array(
 			'slug' => CoursePress_Core::get_slug( 'student_dashboard' ),
 			'title' => esc_html( $page_title ),
